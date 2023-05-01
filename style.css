@@ -1,0 +1,73 @@
+body { background-image: url("img/фон.jpg");
+     background-size: cover;
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+}
+
+a {
+ text-decoration: none;
+ color: #fff;
+}
+
+ul {
+ padding: 0;
+ margin: 0;
+ list-style: none;
+}
+
+header {
+ background-color: #2F4F4F;
+ padding: 10px;
+}
+
+nav {
+ display:  flex;
+}
+
+nav ul {
+ display: flex;
+;
+}
+
+nav li {
+ margin-right: 10px;
+}
+
+main {
+ width: 80%;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+/* Стили для кнопок */
+
+.main-button {
+ background-color: #f33;
+ color: #fff;
+ padding: 10px 20px;
+ border-radius: 5px;
+}
+
+/* Стили для подвала сайта */
+
+footer {
+ background-color: #555;
+ color: #fff;
+ padding: 10px;
+ text-align: center;
+}
+
+/* Стили для разделов сайта */
+
+.main-section, .catalog-section, .reviews-section {
+ margin-bottom: 20px;
+}
+
+.catalog-section ul li {
+ margin-bottom: 10px;
+}
+
+.review-author {
+ font-weight: bold;
+ margin-top: 5px;
+}
